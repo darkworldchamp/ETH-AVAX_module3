@@ -19,14 +19,12 @@ MyToken is an ERC20 token contract deployed on Ethereum-compatible blockchains. 
 - Users can burn their own tokens.
 - Users can burn tokens from another address if allowed.
 
-# Executing program
-1. open remix.org editor.
-2. create a file under contracts using any_name.sol .
-3. copy and paste the code there .
-4. compile and run the code .
-5. deploy the contract using the test networks .
+### Transfer Tokens 
+ - User can transfer tokens from thier own account to another .
    
-## Usage
+###Transfer Tokens from
+- Only owner can use this feature.
+- Owner can transfer tokens from one account to another.
 
 ### Prerequisites
 
@@ -68,7 +66,8 @@ Follow these steps to deploy the contract using Remix IDE:
 - Click the "Deploy" button.
 - Interact with the Contract:
 - After deployment, you will see the contract's functions listed under "Deployed Contracts".
-- You can use these functions to mint,
+- You can use these functions to mint.
+  
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
