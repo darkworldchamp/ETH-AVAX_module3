@@ -22,10 +22,6 @@ MyToken is an ERC20 token contract deployed on Ethereum-compatible blockchains. 
 ### Transfer Tokens 
  - User can transfer tokens from thier own account to another .
    
-### Transfer Tokens from
-- Only owner can use this function.
-- Owner can transfer tokens from one account to another.
-
 ### Prerequisites
 
 - Web3 provider or MetaMask set up to interact with Ethereum.
