@@ -50,6 +50,25 @@ MyToken is an ERC20 token contract deployed on Ethereum-compatible blockchains. 
 
 - [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts): Used for ERC20 implementation and access control.
 
+## Deploying Using Remix
+
+Follow these steps to deploy the contract using Remix IDE:
+
+- Open Remix IDE: Go to Remix IDE.
+- Create a New File: Click on the "File Explorers" icon on the left, then click on the "+" icon to create a new file. Name it MyToken.sol.
+- Paste the Contract Code: Copy the contract code above and paste it into MyToken.sol.
+- Compile the Contract:
+- Click on the "Solidity Compiler" icon on the left.
+- Select 0.8.20+commit as the compiler version.
+- Click the "Compile MyToken.sol" button.
+- Deploy the Contract:
+- Click on the "Deploy & Run Transactions" icon on the left.
+- Select "Injected Web3" as the environment if you want to deploy on a live network (MetaMask should be connected) or "JavaScript VM" for a local test deployment.
+- Make sure MyToken is selected under "Contract".
+- Click the "Deploy" button.
+- Interact with the Contract:
+- After deployment, you will see the contract's functions listed under "Deployed Contracts".
+- You can use these functions to mint,
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
