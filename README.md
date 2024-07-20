@@ -36,7 +36,7 @@ MyToken is an ERC20 token contract deployed on Ethereum-compatible blockchains. 
 #### Burning Tokens
 
 - Call the `burn` function to burn your own tokens.
-- Call the `burnFrom` function to burn tokens from another address, ensuring you have the necessary allowance.
+- Call the `transfer tokens` function to transfer tokens from user address to another, ensuring you have sufficient tokens.
 
 ## Development
 
