@@ -19,9 +19,5 @@ contract MyToken is ERC20("Nikhil's Token", "NT"), Ownable {
     function transferTokens(address recipient, uint256 amount) public returns (bool) {
         return transfer(recipient, amount);
     }
-    // Only the owner can transfer tokens from one address to another with allowance
-    function transferTokensFrom(address sender, address recipient, uint256 amount) public onlyOwner returns (bool) {
-        return transferFrom(sender, recipient, amount);
-    }
 }
 
